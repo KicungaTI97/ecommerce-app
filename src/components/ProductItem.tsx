@@ -1,10 +1,9 @@
 import { useContext } from "react"
 import { ShopContext } from "../context/ShopContext"
 import { Link } from "react-router-dom"
-
 interface ProductItemType{
     id: string
-    image: string
+    image: string[]
     name: string
     price: number
 }

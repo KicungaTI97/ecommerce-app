@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { WhatsAppChat } from "../components/WhatsAppButton";
 
 export function Login(){
 
@@ -29,6 +30,7 @@ export function Login(){
                     }
                 </div>
                 <button className="bg-black text-white font-light px-8 py-2 mt-4">{currentState === 'Login' ? 'Sign In' : 'Sign Up'}</button>
+                <WhatsAppChat />
             </form>
     )
 }

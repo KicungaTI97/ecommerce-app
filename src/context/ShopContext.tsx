@@ -85,6 +85,7 @@ export const ShopContext = createContext<ShopContextType>(initialContextValue);
 export const ShopContextProvider = ({ children }) => {
   const { search, setSearch, setShowSearch, showSearch } = useSearch();
   const [cartItems, setCartItems] = useState<CartData>({});
+  
   const navigate = useNavigate();
 
   const currency = 'AOA ';

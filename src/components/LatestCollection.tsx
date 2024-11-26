@@ -28,6 +28,7 @@ export function LatestCollection(){
                     ))
                 }
             </div>
+           
         </div>
     )
 }

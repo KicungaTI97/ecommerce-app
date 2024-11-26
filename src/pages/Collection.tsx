@@ -3,6 +3,7 @@ import { Product, ShopContext } from "../context/ShopContext"
 import { assets } from "../assets/assets"
 import { Title } from "../components/Title"
 import { ProductItem } from "../components/ProductItem"
+import { WhatsAppChat } from "../components/WhatsAppButton"
 
 interface EventType extends React.ChangeEvent<HTMLInputElement>{
     customData?: string;
@@ -163,6 +164,7 @@ export function Collection(){
                 </div>
                  
             </div>
+            <WhatsAppChat />
         </div>
     )
 }

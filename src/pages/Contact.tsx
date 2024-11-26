@@ -1,6 +1,7 @@
 import { assets } from "../assets/assets";
 import { NewsletterBox } from "../components/NewsletterBox";
 import { Title } from "../components/Title";
+import {WhatsAppChat } from "../components/WhatsAppButton";
 
 export function Contact(){
 
@@ -23,6 +24,7 @@ export function Contact(){
                 
             </div>
             <NewsletterBox/>
+            <WhatsAppChat />
         </div>
     )
 }
